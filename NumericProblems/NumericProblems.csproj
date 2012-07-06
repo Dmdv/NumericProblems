@@ -76,6 +76,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gray.cs" />
+    <Compile Include="IPAddressExtension.cs" />
     <Compile Include="Problems\ArrayExtension.cs" />
     <Compile Include="Problems\NumericMethods.cs" />
     <Compile Include="Program.cs" />

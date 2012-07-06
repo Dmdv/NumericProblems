@@ -1,13 +1,15 @@
-﻿using NumericProblems.Problems;
+﻿using System;
+using System.Collections.Generic;
+using NumericProblems.Problems;
 
 namespace NumericProblems
 {
 	public static class Program
-    {
-        public static void Main()
-        {
-            var solver = new ProblemSolver();
-            solver.Run();
-        }
-    }
+	{
+		public static void Main()
+		{
+			var solver = new ProblemSolver();
+			solver.Run();
+		}
+	}
 }
